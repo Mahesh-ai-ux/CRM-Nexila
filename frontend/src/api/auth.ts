@@ -1,4 +1,4 @@
-const API_URL = "http://16.112.63.255:5000/api/auth";
+const API_URL = "http://40.192.15.177:5000/api/auth";
 
 export interface LoginResponse {
   token?: string;

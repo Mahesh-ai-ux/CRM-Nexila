@@ -1,7 +1,7 @@
 // src/api/leadsApi.ts
 import axios from "axios";
 
-const API_URL = "http://16.112.63.255:5000/api/leads"; // change if backend URL differs
+const API_URL = "http://40.192.15.177:5000/api/leads"; // change if backend URL differs
 
 export const createLead = async (data: any) => {
   const token = localStorage.getItem("token"); // if you use auth
